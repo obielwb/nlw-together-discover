@@ -1,0 +1,29 @@
+{
+  "name": "nlw-together",
+  "version": "1.0.0",
+  "description": "<b><p align=\"center\">Projeto desenvolvido durante o evento NLW Together na trilha Discover</p></b>\r <img src=\"https://user-images.githubusercontent.com/69120228/122763835-2d6c2200-d275-11eb-8bd3-3578ec01635d.png\">",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obielwb/nlw-together-discover.git"
+  },
+  "keywords": [],
+  "author": "Gabriel Bartmanovicz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/obielwb/nlw-together-discover/issues"
+  },
+  "homepage": "https://github.com/obielwb/nlw-together-discover#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
