@@ -28,8 +28,8 @@
             </a>
 
             <div class="buttons">
-                <div class="button outlined" id="room-id" data-id="323456">
-                    #323456
+                <div class="button outlined" id="room-id" data-id="<%= roomId %>">
+                    #<%= roomId %>
                     <img src="/images/copy.svg">
                 </div>
                 <a href="#" class="button">
@@ -42,7 +42,7 @@
         <main>
             <section id="question-form">
                 <h2>Faça sua pergunta</h2>
-                <form action="">
+                <form action="/question/create/<%= roomId %>" method="POST">
                     <label for-id="question" class="sr-only">O que você quer perguntar</label>
                     <textarea name="question" id="question" placeholder="O que você quer perguntar?"></textarea>
                     
