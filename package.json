@@ -4,7 +4,8 @@
   "description": "<b><p align=\"center\">Projeto desenvolvido durante o evento NLW Together na trilha Discover</p></b>\r <img src=\"https://user-images.githubusercontent.com/69120228/122763835-2d6c2200-d275-11eb-8bd3-3578ec01635d.png\">",
   "main": "src/server.js",
   "scripts": {
-    "start": "nodemon ."
+    "start": "nodemon .",
+    "init-db": "node src/db/init.js"
   },
   "repository": {
     "type": "git",
